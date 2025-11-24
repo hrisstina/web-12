@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header / Navigation */
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #eee;
+    padding: 10px 0;
+}
+
+.menu {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.button-class {
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #ff914d;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.button-class:hover {
+    background: #ff7b22;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    top: 40px;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #444;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1558944351-c04a9a5f1010?auto=format&fit=crop&w=1400&q=60') center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.hero-button {
+    display: inline-block;
+    background: #ff914d;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.hero-button:hover {
+    background: #ff7b22;
+}
+
+/* Info Section */
+.info {
+    padding: 40px;
+    text-align: center;
+    background: #fafafa;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero-text {
+    max-width: 700px;
+}
+
+.hero-image {
+    width: 60%;
+    max-width: 350px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    padding: 40px;
+}
