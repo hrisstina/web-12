@@ -191,4 +191,24 @@ tbody tr:nth-child(2) td:not(:last-child) {
     transform: scale(1.05);
     transition: 0.3s;
 }
-
+.dog-img{
+    position:absolute;    
+    left:100px;
+    top:100px;
+    width:300px;
+    height:300px;
+    z-index: -1;
+}
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;             /* можеш да промениш */
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px black; /* за да се чете върху снимка */
+    z-index: 2;                /* текстът е над снимката */
+    margin: 0;
+    pointer-events: none;      /* да не пречи на клика върху снимката */
+}
